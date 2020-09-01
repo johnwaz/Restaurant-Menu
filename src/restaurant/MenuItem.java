@@ -26,14 +26,13 @@ public class MenuItem {
 
     @Override
     public String toString() {
-        return "MenuItem{" +
-                "name='" + name + '\'' +
-                ", price=" + price +
-                ", description='" + description + '\'' +
-                ", category='" + category + '\'' +
-                ", isNew=" + isNew +
-                ", isVegan=" + isVegan +
-                '}';
+        return "Menu item: " +
+                "Name: '" + name + '\'' +
+                ", Price: $" + price +
+                ", Description: '" + description + '\'' +
+                ", Category: '" + category + '\'' +
+                ", New: " + isNew +
+                ", Vegan: " + isVegan;
     }
 
     @Override
